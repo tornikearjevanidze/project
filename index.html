@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="all-products.html">All Products</a>
+            <a href="javascript:void(0)" id="cart-icon">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <div class="landing-banner">
+        <h2>Featured Products</h2>
+    </div>
+
+    <div class="product-grid" id="product-grid"></div>
+
+    <!-- Cart Panel -->
+    <div id="cart-panel" class="cart-panel">
+        <button id="close-cart-btn">Close</button>
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

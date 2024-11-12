@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "T-Shirt",
+      "description": "Comfortable cotton t-shirt",
+      "price": "$19.99",
+      "image": "tshirt.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jeans",
+      "description": "Stylish denim jeans",
+      "price": "$39.99",
+      "image": "jeans.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jacket",
+      "description": "Warm and cozy winter jacket",
+      "price": "$79.99",
+      "image": "jacket.jpg"
+    },
+    {
+        "id": 4,
+        "name": "T-Shirt",
+        "description": "Comfortable cotton t-shirt",
+        "price": "$19.99",
+        "image": "tshirt.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Jeans",
+        "description": "Stylish denim jeans",
+        "price": "$39.99",
+        "image": "jeans.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Jacket",
+        "description": "Warm and cozy winter jacket",
+        "price": "$79.99",
+        "image": "jacket.jpg"
+      }
+  ]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>All Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="all-products.html">All Products</a>
+            <a href="javascript:void(0)" id="cart-icon">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <div class="product-grid" id="product-grid"></div>
+
+    <!-- Cart Panel -->
+    <div id="cart-panel" class="cart-panel">
+        <button id="close-cart-btn">Close</button>
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
