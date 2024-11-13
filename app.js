@@ -110,3 +110,5 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(error => console.error("Error loading products:", error));
   }
 });
+updateCartPanel()
+updateCartCount()
